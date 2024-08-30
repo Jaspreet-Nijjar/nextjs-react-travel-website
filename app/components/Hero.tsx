@@ -36,6 +36,25 @@ const Hero = () => {
           How we work?
         </button>
       </div>
+
+      <div className="bg-gray-800 rounded-2xl p-4 h-[170px] max-w-[300px] mt-10 flex flex-col justify-center">
+        <div>
+          <p className="text-gray-400">Location</p>
+          <h2 className="text-xl text-white font-bold">Aguas Calientes</h2>
+        </div>
+
+        <div className="flex justify-between">
+          <div>
+            <p className="text-gray-400">Distance</p>
+            <h2 className="text-xl text-white font-bold">173.28 mi</h2>
+          </div>
+
+          <div>
+            <p className="text-gray-400">Elevation</p>
+            <h2 className="text-xl text-white font-bold">2.040 km</h2>
+          </div>
+        </div>
+      </div>
     </section>
   );
 };
