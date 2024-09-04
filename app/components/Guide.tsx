@@ -23,7 +23,7 @@ const Guide = () => {
         </p>
       </div>
 
-      <div className="flex flex-col ">
+      <div className="flex flex-col relative w-full">
         <div>
           <Image
             src="/boat.png"
@@ -33,7 +33,7 @@ const Guide = () => {
             className="object-cover object-center w-full"
           />
 
-          <div className="flex mx-auto p-2 shadow-xl rounded-lg border border-gray-100 max-w-sm">
+          <div className="absolute left-0 right-0 mx-auto top-[-20px] bg-white flex p-2 shadow-xl rounded-3xl border border-gray-100 max-w-[350px] md:left-10 lg:top-20">
             <Image src="/meter.svg" alt="meter" width={30} height={30} />
 
             <div className="flex flex-col justify-between px-6">
