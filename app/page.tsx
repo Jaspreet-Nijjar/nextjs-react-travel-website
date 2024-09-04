@@ -3,7 +3,7 @@ import Hero from './components/Hero';
 
 const Home = () => {
   return (
-    <main className="p-4 min-h-screen">
+    <main className="min-h-screen">
       <Hero />
       <Guide />
     </main>
