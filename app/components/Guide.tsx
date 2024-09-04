@@ -23,14 +23,35 @@ const Guide = () => {
         </p>
       </div>
 
-      <div>
-        <Image
-          src="/boat.png"
-          alt="boat"
-          width={1440}
-          height={580}
-          className="object-cover object-center w-full"
-        />
+      <div className="flex flex-col ">
+        <div>
+          <Image
+            src="/boat.png"
+            alt="boat"
+            width={1440}
+            height={580}
+            className="object-cover object-center w-full"
+          />
+
+          <div className="flex mx-auto p-2 shadow-xl rounded-lg border border-gray-100 max-w-sm">
+            <Image src="/meter.svg" alt="meter" width={30} height={30} />
+
+            <div className="flex flex-col justify-between px-6">
+              <div>
+                <div className="flex gap-12">
+                  <p className="text-gray-400">Destination</p>
+                  <p className="font-bold text-green-500">48 min</p>
+                </div>
+                <p className="text-2xl font-bold">Aguas Calientes</p>
+              </div>
+
+              <div>
+                <p className="text-gray-400">Start track</p>
+                <p className="text-2xl font-bold">Wonorejo Pasuruan</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
