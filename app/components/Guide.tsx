@@ -33,7 +33,7 @@ const Guide = () => {
             className="object-cover object-center w-full"
           />
 
-          <div className="absolute left-0 right-0 mx-auto top-[-20px] bg-white flex p-2 shadow-xl rounded-3xl border border-gray-100 max-w-[350px] md:left-10 lg:top-20">
+          <div className="absolute left-0 right-0 top-[-10px] transform:translateY(-50%) mx-auto max-w-md:left-auto max-w-md:right-auto max-w-md:mx-auto md:left-20  lg:left-10 lg:top-20 lg:mx-0 bg-white flex p-2 shadow-xl rounded-3xl border border-gray-100 max-w-[350px]">
             <Image src="/meter.svg" alt="meter" width={30} height={30} />
 
             <div className="flex flex-col justify-between px-6">
