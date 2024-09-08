@@ -1,3 +1,4 @@
+import Camp from './components/Camp';
 import Features from './components/Features';
 import GetApp from './components/GetApp';
 import Guide from './components/Guide';
@@ -7,6 +8,7 @@ const Home = () => {
   return (
     <main className="min-h-screen">
       <Hero />
+      <Camp />
       <Guide />
       <Features />
       <GetApp />
