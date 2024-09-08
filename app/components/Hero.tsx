@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Hero = () => {
   return (
-    <section className="bg-[url('/hero-bg.svg')] bg-no-repeat bg-center lg:bg-top-right bg-cover xl:flex lg:gap-16 p-6">
+    <section className="bg-[url('/hero-bg.svg')] bg-no-repeat bg-center lg:bg-top-right bg-cover xl:flex lg:gap-16 p-6 mb-36">
       <div className="xl:w-1/2">
         <div>
           <Image src="/camp.svg" alt="camp" width={50} height={50} />
