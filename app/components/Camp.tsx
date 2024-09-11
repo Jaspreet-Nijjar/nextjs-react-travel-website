@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const Camp = () => {
   return (
-    <section className="bg-[url('/img-1.png')] bg-no-repeat bg-top-right py-6 px-8 text-white h-[340px] mb-52 lg:relative">
+    <section className="bg-[url('/img-1.png')] bg-no-repeat bg-cover py-6 px-8 text-white h-[340px] mb-64 lg:mb-36 lg:relative">
       <div className="flex flex-col justify-between h-full">
         <div className="flex gap-6">
           <Image
@@ -36,8 +36,8 @@ const Camp = () => {
         </div>
       </div>
 
-      <div className="p-6 bg-green-600 mt-12 rounded-lg bg-[url('/quote.svg')] bg-no-repeat bg-right-bottom  lg:max-w-md lg:absolute lg:bottom-[-15px] lg:right-10">
-        <h3 className="text-[24px] lg:text-[32px]">
+      <div className="p-6 bg-green-600 mt-12 rounded-lg bg-[url('/quote.svg')] bg-no-repeat bg-right-bottom  lg:max-w-md lg:absolute lg:bottom-[-15px] lg:right-10 xl:max-w-xl xl:px-24 xl:bottom-[-155px]">
+        <h3 className="text-[24px] lg:text-[32px] xl:text-[40px]">
           <strong>Feeling Lost</strong> And Not Knowing The Way?
         </h3>
         <p className="text-sm mt-6">
